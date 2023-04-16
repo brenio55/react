@@ -25,3 +25,7 @@ return (
 -----------------
 
 Com o JSX podemos fazer interporlações, que é misturar HTML com variáveis e coisas de javascript
+
+-----------------
+
+PROPS são simplesmente a replicação dos atributos HTML, só que para um componente nosso. Podemos fazer nossos próprios atributos.

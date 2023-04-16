@@ -1,6 +1,4 @@
-function Titulo(){
-    let nome = 'Brenio';
-
+function Titulo({ nome }){
     return (
         <div>
             <h1>Oi, eu sou o {nome}</h1>

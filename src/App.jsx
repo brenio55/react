@@ -3,10 +3,10 @@ import Titulo from "./Titulo"
 function App(){
   return (
     <div>
-      <Titulo/>
-      <Titulo/>
-      <Titulo/>
-      <Titulo/>
+      <Titulo nome="Dimitri" />
+      <Titulo nome="Dimitri" />
+      <Titulo nome="Dimitri" />
+      <Titulo nome="Dimitri" /> nome="Dimitri" 
       <h1>Olá mundo!</h1>
     </div>
   )
