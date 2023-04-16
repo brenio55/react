@@ -1,0 +1,16 @@
+O create-react-app ficou obsoleto, então existe um site agora chamado vite, em que executando este comando, conseguimos a versão mais atual do react:
+
+ npm create vite@latest <nome-do-prok> -- --template react
+
+ após a criação do propjeto, execute o "npm install" para instalar todas as dependências do react"
+
+ para rordar o servidor, só colocar "npm run dev"
+
+O reactStritcMode é um método para que o react renderize a página duas vezes quando em desenvolvimento para meio que um debug.]
+
+a renderização e chamada das bibliotecas acontece por meio do main.jsx
+
+Componentes são nada mais que funções javascript que renderizam HTML.
+
+Sempre se faz o nome do componente com o mesmo nome do arquivo - e sempre com a primeira letra maiúscula
+
