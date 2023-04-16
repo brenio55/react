@@ -14,3 +14,10 @@ Componentes são nada mais que funções javascript que renderizam HTML.
 
 Sempre se faz o nome do componente com o mesmo nome do arquivo - e sempre com a primeira letra maiúscula
 
+Para adicionar mais de um componente, é necessário amplicar o return do componente, pois uma função só pode possuir um return. Dessa forma:
+
+return (
+    <div>
+        <componente></componente>
+    </div>
+)
