@@ -47,3 +47,9 @@ npm install react-router-dom
 e fazer este import:
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+--> build
+
+para testar uma build é preciso executar o comando npx serve --Single
+
+o --single serve para que ele redirecione todas as requests para o mesmo arquivo, caso tenhamos rotas, isso será útil.
