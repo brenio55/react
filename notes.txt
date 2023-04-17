@@ -33,3 +33,17 @@ PROPS são simplesmente a replicação dos atributos HTML, só que para um compo
 -----------------
 
 states no react são meio que uma memória interna que cada componente tem, em que se caso o valor do estado seja mudado por meio de uma fetchAPI por exemplo, ou um click na tela, o componente irá ser atualizado.
+
+-----------------
+
+ROTAS
+O React foi feito para funcionar como se fosse uma SPA - Single Page Application
+
+Rotas são basicamente um jeito do React redirecionar o usuário para determinado caminho da URL, que chamamos aqui de rotas. Os arquivos de cada URL serão definidos por meio do código, mas para o usuário a página meio que permanece a mesma.
+
+Para adicionar rotas ao nosso projeto é necessário fazer um 
+npm install react-router-dom
+
+e fazer este import:
+
+import { BrowserRouter, Routes, Route } from "react-router-dom"
