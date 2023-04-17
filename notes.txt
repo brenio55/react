@@ -29,3 +29,7 @@ Com o JSX podemos fazer interporlações, que é misturar HTML com variáveis e 
 -----------------
 
 PROPS são simplesmente a replicação dos atributos HTML, só que para um componente nosso. Podemos fazer nossos próprios atributos.
+
+-----------------
+
+states no react são meio que uma memória interna que cada componente tem, em que se caso o valor do estado seja mudado por meio de uma fetchAPI por exemplo, ou um click na tela, o componente irá ser atualizado.
